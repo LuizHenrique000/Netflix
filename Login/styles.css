@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    opacity: 0.5;
+}
+
+
+body {
+    background-image: url("filmes.jpg");
+    background-image: linear-gradient(180deg,#000 25%,transparent);
+}
+
+h1 {
+    color:white;
+    font: 32px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.button {
+    color: white;
+    background-color: red;
+}
+
+.email, .senha {
+    background-color: darkgrey;
+    color:gray;
+}
+
+.email, .senha, .button {
+    height: 30px;
+    width: 950px;
+    border-radius: 3px;
+}
+
+input::placeholder {
+    color: gray;
+  }
+
+.login {
+    padding-left: 40px;
+    position: relative;
+}
+
+.ajuda {
+    padding-left: 700px;
+}
+
+.duvidas, .perguntas, .privacidade , .central, .preferencia, .termos, .informacoes {
+    color: #737373;
+    padding: 30px;
+}
+
+.duvidas {
+    padding: 30px;
+}
+
+.perguntas {
+    padding: 0px 0px 0px 30px;
+}
+
+.privacidade {
+    padding: 15px 0px 0px 30px;
+}
+
+.central {
+    padding-left: 200px;
+}
+
+.idiomas {
+    height: 50px;
+    width: 200px;
+    color: #737373;
+    background-color: #000;
+    padding: 0px 0px 0px 0px;
+}
