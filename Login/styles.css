@@ -38,7 +38,7 @@ h1 {
 .senha,
 .button {
   height: 40px;
-  width: 950px;
+  width: 90%;
   border-radius: 10px;
 }
 
@@ -53,11 +53,12 @@ input::placeholder {
 }
 
 .ajuda {
-  padding-left: 675px;
+  padding-left: 380px;
   font-family: Arial, Helvetica, sans-serif;
   color: #b3b3b3;
   font-size: 15px;
   text-decoration: none;
+  width: 90%;
 }
 
 .duvidas,
