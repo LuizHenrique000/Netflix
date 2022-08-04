@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
+    <script src="index.js"></script>
     <link rel="icon" type="imagem/png" href="../Resources/Netflix_icon.svg.png" />
     <title>Netflix</title>
 </head>
@@ -23,14 +24,21 @@
         <label for="Lembrar" class="lembre">Lembre-se de mim</label>
         <a href="https://www.netflix.com/br/LoginHelp" class="ajuda">Precisa de ajuda?</a>
         <p class="assine">Novo por aqui?</p>
-        <p class="agora">Assine agora.</p>
+        <a href="https://www.netflix.com/br/" class="agora">Assine agora.</a>
         <p class="recaptcha">Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô.
-            <button class="saiba"> Saiba mais.</button>
+            <button class="saiba" onclick="mostrarTexto()"> Saiba mais.</button>
         </p>
+        <div class="texto-recaptcha">
+            As informações recolhidas pelo Google reCAPTCHA estão sujeitas à <a
+                href="https://policies.google.com/privacy" class="politica">Política de Privacidade</a> e <a
+                href="https://policies.google.com/terms" class="uso">Termos de Uso</a>
+            e
+            são usadas para oferecer, manter e melhorar o serviço reCAPTCHA e por questões de segurança (não são usadas
+            para exibir anúncios personalizados pelo Google).
+        </div>
         <footer>
             <hr>
             <p class="duvidas">Dúvidas? Ligue 0800 591 8942</p>
-            <hr>
             <a href="https://help.netflix.com/pt/node/412" class="perguntas">Perguntas frequentes</a><br />
             <a href="https://help.netflix.com/legal/privacy" class="privacidade">Privacidade</a><br />
             <a href="https://help.netflix.com/pt/" class="central">Central de ajuda</a><br />
