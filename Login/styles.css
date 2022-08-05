@@ -38,8 +38,9 @@ h1 {
 .senha,
 .button {
   height: 40px;
-  width: 90%;
+  width: 100%;
   border-radius: 10px;
+  padding-right: 10px;
 }
 
 input::placeholder {
@@ -50,15 +51,6 @@ input::placeholder {
   padding-left: 40px;
   position: relative;
   padding-bottom: 30px;
-}
-
-.ajuda {
-  padding-left: 380px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #b3b3b3;
-  font-size: 15px;
-  text-decoration: none;
-  width: 90%;
 }
 
 .duvidas,
@@ -151,6 +143,15 @@ p {
   padding-bottom: 20px;
 }
 
+.ajuda {
+  position: absolute;
+  padding-left: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #b3b3b3;
+  font-size: 15px;
+  text-decoration: none;
+}
+
 hr {
   color: #b3b3b3;
 }
@@ -206,4 +207,12 @@ hr {
 .uso {
   color: #0071eb;
   text-decoration: none;
+}
+
+@media screen and (min-width: 350px) {
+  html,
+  body {
+    background-image: url("../Resources/filmes.jpg");
+    background-color: transparent;
+  }
 }
